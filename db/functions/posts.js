@@ -81,4 +81,5 @@ async function updatePosts(postId, fields = {}) {
 module.exports = {
   createPost,
   updatePosts,
+  getPostsById,
 };

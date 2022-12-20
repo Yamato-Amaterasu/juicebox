@@ -8,6 +8,7 @@ const {
   getPostsByTagName,
   getPostsByUser,
   getAllTags,
+  getUserByUsername,
 } = require("./getFunctions");
 
 const { createPost, updatePosts } = require("./posts");
@@ -34,4 +35,5 @@ module.exports = {
   createUser,
   updateUser,
   getAllTags,
+  getUserByUsername,
 };
